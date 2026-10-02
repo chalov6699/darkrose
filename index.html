@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dark Rose — Авторские цветы</title>
+<meta name="description" content="Dark Rose — авторские букеты в чёрно-красной эстетике." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="noise"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+<header class="header">
+  <div class="container nav">
+    <a href="#home" class="brand">Dark Rose<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#catalog">Каталог</a><a href="#about">О бренде</a><a href="#service">Сервис</a><a href="#reviews">Отзывы</a>
+    </nav>
+    <a class="nav-order" href="#catalog">Заказать</a>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <div class="eyebrow"><span></span> floral atelier · since 2026</div>
+      <h1>Цветы<br><em>после</em> темноты.</h1>
+      <p class="lead">Dark Rose — авторские букеты для сильных эмоций. Алые розы, чёрная упаковка, точная композиция и доставка без компромиссов.</p>
+      <div class="hero-actions"><a href="#catalog" class="btn btn-red">Собрать букет</a><a href="#about" class="btn btn-dark">О бренде</a></div>
+      <div class="stats">
+        <div><b>2 ч</b><span>доставка по городу</span></div><div><b>24/7</b><span>приём заказов</span></div><div><b>100%</b><span>ручная сборка</span></div>
+      </div>
+    </div>
+    <div class="rose-scene reveal" id="roseScene" aria-label="Вращающаяся 3D роза">
+      <div class="scene-ring ring-one"></div><div class="scene-ring ring-two"></div>
+      <div class="rose-wrap" id="roseWrap">
+        <div class="rose3d" id="rose3d"></div>
+        <div class="stem"><i></i><i></i></div>
+      </div>
+      <div class="scene-badge">360° <span>interactive rose</span></div>
+    </div>
+  </div>
+  <a class="scroll-down" href="#catalog"><span></span>листайте ниже</a>
+</section>
+
+<section class="marquee" aria-hidden="true"><div>PASSION · DARKNESS · FRESH FLOWERS · DARK ROSE · PASSION · DARKNESS · FRESH FLOWERS · DARK ROSE ·</div></section>
+
+<section class="section catalog" id="catalog">
+  <div class="container">
+    <div class="section-top reveal"><div><div class="eyebrow"><span></span> signature collection</div><h2>Выберите настроение</h2></div><p>Шесть характеров одной эстетики — от сдержанной драмы до абсолютной страсти.</p></div>
+    <div class="catalog-grid">
+      <article class="product-card reveal"><div class="product-art art-1"><span class="pill">bestseller</span><div class="bouquet" data-count="13"></div></div><div class="product-meta"><div><h3>Crimson Night</h3><p>25 алых роз · чёрная упаковка</p></div><strong>7 900 ₽</strong></div></article>
+      <article class="product-card reveal"><div class="product-art art-2"><span class="pill">new</span><div class="bouquet" data-count="17"></div></div><div class="product-meta"><div><h3>Velvet Desire</h3><p>31 роза · бордовый бархат</p></div><strong>9 500 ₽</strong></div></article>
+      <article class="product-card reveal"><div class="product-art art-3"><span class="pill">signature</span><div class="bouquet" data-count="21"></div></div><div class="product-meta"><div><h3>Red Obsession</h3><p>51 роза · монобукет</p></div><strong>12 900 ₽</strong></div></article>
+      <article class="product-card reveal"><div class="product-art art-4"><span class="pill">limited</span><div class="bouquet" data-count="15"></div></div><div class="product-meta"><div><h3>Noir Kiss</h3><p>19 роз · антуриум · лента</p></div><strong>8 700 ₽</strong></div></article>
+      <article class="product-card reveal"><div class="product-art art-5"><span class="pill">romance</span><div class="bouquet" data-count="19"></div></div><div class="product-meta"><div><h3>Scarlet Muse</h3><p>35 роз · дизайнерская упаковка</p></div><strong>10 800 ₽</strong></div></article>
+      <article class="product-card reveal"><div class="product-art art-6"><span class="pill">wow</span><div class="bouquet" data-count="25"></div></div><div class="product-meta"><div><h3>After Midnight</h3><p>75 роз · премиальная коллекция</p></div><strong>16 900 ₽</strong></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-poster reveal"><div class="poster-rose" id="posterRose"></div><div class="poster-copy"><span>01 / manifesto</span><b>BE BOLD.<br>GIVE RED.</b></div></div>
+    <div class="about-copy reveal"><div class="eyebrow"><span></span> dark rose manifesto</div><h2>Не просто букет.<br>Жест, который запомнят.</h2><p>Мы строим композицию как кадр из кино: свет, форма, плотность, фактура. Никакой случайности — только точный визуальный образ.</p><div class="about-list"><div><b>01</b><span><strong>Отбор вручную</strong>Каждый цветок проверяем до сборки.</span></div><div><b>02</b><span><strong>Авторская упаковка</strong>Чёрный, графит и красный — без лишнего декора.</span></div><div><b>03</b><span><strong>Фото перед отправкой</strong>Вы видите готовый букет до доставки.</span></div></div></div>
+  </div>
+</section>
+
+<section class="section service" id="service">
+  <div class="container"><div class="section-top reveal"><div><div class="eyebrow"><span></span> premium service</div><h2>Всё уже продумано</h2></div><p>От первой идеи до вручения — сервис построен вокруг одного: впечатление должно быть безупречным.</p></div>
+  <div class="service-grid"><article class="service-card reveal"><i>01</i><h3>Доставка 2 часа</h3><p>Курьер бережно везёт букет вертикально в специальном боксе.</p></article><article class="service-card reveal"><i>02</i><h3>Свежесть 7+ дней</h3><p>Даём понятную инструкцию по уходу и подбираем стойкие сорта.</p></article><article class="service-card reveal"><i>03</i><h3>Анонимная отправка</h3><p>По желанию не раскрываем имя отправителя и добавляем карточку.</p></article><article class="service-card reveal"><i>04</i><h3>Индивидуальный заказ</h3><p>Соберём композицию по событию, настроению и бюджету.</p></article></div></div>
+</section>
+
+<section class="section reviews" id="reviews"><div class="container"><div class="section-top reveal"><div><div class="eyebrow"><span></span> client stories</div><h2>После вручения — тишина.<br>Потом восторг.</h2></div></div><div class="review-grid"><blockquote class="reveal"><p>«Вживую букет выглядит ещё мощнее. Упаковка, цвет, подача — всё как в премиальном бренде.»</p><footer>Алина · Crimson Night</footer></blockquote><blockquote class="reveal"><p>«Заказывал ночью, утром уже доставили. Фото перед отправкой — очень крутая деталь.»</p><footer>Михаил · Red Obsession</footer></blockquote><blockquote class="reveal"><p>«Наконец-то цветочный без розового и бантиков. Очень стильный и взрослый визуал.»</p><footer>Елена · Noir Kiss</footer></blockquote></div></div></section>
+
+<section class="cta"><div class="container cta-box reveal"><div><div class="eyebrow"><span></span> made for your moment</div><h2>Какой будет ваша<br><em>Dark Rose?</em></h2></div><a href="#catalog" class="btn btn-red">Выбрать букет</a></div></section>
+</main>
+<footer class="footer"><div class="container footer-top"><div><a class="brand" href="#home">Dark Rose<span>.</span></a><p>Авторская флористика в чёрно-красной эстетике.</p></div><div><b>Контакты</b><a href="tel:+70000000000">+7 000 000-00-00</a><a href="mailto:hello@darkrose.ru">hello@darkrose.ru</a></div><div><b>Соцсети</b><a href="#">Telegram</a><a href="#">Instagram</a><a href="#">VK</a></div></div><div class="container footer-bottom"><span>© 2026 Dark Rose</span><span>Flowers after dark.</span></div></footer>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+<script src="script.js"></script>
+</body>
+</html>
