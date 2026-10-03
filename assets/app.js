@@ -97,7 +97,7 @@ function homePage() {
         <div class="hero-rose-wrap" aria-hidden="true">
           <div class="hero-glow"></div>
           <div class="hero-rose-aura"></div>
-          <img class="hero-rose" src="./public/images/hero-rose-live.webp?v=3" alt="" />
+          <img class="hero-rose" src="./public/images/hero-rose-main.webp?v=4" alt="" />
         </div>
         <div class="hero-side-note">Fresh daily · handcrafted · delivered</div>
         <a class="hero-scroll" href="#selected"><span>Scroll</span><i></i></a>
