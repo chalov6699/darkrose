@@ -97,11 +97,7 @@ function homePage() {
         <div class="hero-rose-wrap" aria-hidden="true">
           <div class="hero-glow"></div>
           <div class="hero-rose-aura"></div>
-          <div class="hero-rose-shadow"></div>
-          <div class="hero-rose-floor"></div>
-          <img class="hero-rose hero-rose--back" src="./public/images/hero-rose.png" alt="" />
-          <img class="hero-rose hero-rose--front" src="./public/images/hero-rose.png" alt="" />
-          <span class="orbit orbit-a"></span><span class="orbit orbit-b"></span>
+          <img class="hero-rose" src="https://images.pexels.com/photos/34998683/pexels-photo-34998683.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
         </div>
         <div class="hero-side-note">Fresh daily · handcrafted · delivered</div>
         <a class="hero-scroll" href="#selected"><span>Scroll</span><i></i></a>
