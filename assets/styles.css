@@ -23,7 +23,7 @@
 .hero-rose-wrap:before{content:"";position:absolute;inset:0;z-index:3;background:linear-gradient(90deg,#070707 0%,rgba(7,7,7,.92) 7%,rgba(7,7,7,.48) 19%,rgba(7,7,7,.14) 35%,rgba(7,7,7,0) 54%);pointer-events:none}
 .hero-glow{position:absolute;width:92%;aspect-ratio:1;right:-9%;top:3%;border-radius:50%;background:radial-gradient(circle,rgba(180,12,34,.23) 0%,rgba(96,5,19,.12) 42%,rgba(0,0,0,0) 74%);filter:blur(115px);animation:glow 6s ease-in-out infinite alternate;pointer-events:none}
 .hero-rose-aura{position:absolute;inset:7% -3% 4% 7%;z-index:0;border-radius:50%;background:radial-gradient(circle at 60% 42%,rgba(158,10,28,.16),rgba(76,4,13,.07) 44%,rgba(0,0,0,0) 76%);filter:blur(28px);pointer-events:none}
-.hero-rose{position:relative;z-index:2;display:block;width:min(95%,820px);height:auto;max-height:92%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,.45));animation:roseFloat 8s ease-in-out infinite alternate}
+.hero-rose{position:relative;z-index:2;display:block;width:min(96%,820px);height:auto;max-height:92%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,.45));animation:roseFloat 8s ease-in-out infinite alternate}
 @keyframes roseFloat{0%{transform:translate3d(0,-.35%,0) scale(1.01)}100%{transform:translate3d(-.35%,.45%,0) scale(1.025)}}
 @keyframes glow{to{transform:scale(1.12);opacity:.7}}
 .hero-side-note{position:absolute;z-index:11;right:18px;bottom:95px;writing-mode:vertical-rl;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#665f5b}
